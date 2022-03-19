@@ -133,7 +133,12 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 0;
+    border-radius: 30%;
+    border: 4px double white;
+    padding: 20px;
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +155,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(3, 118, 250);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -648,11 +653,12 @@ h6,
 p,
 label,
 .btn,
-a {
+.col-sm-6 {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
 }
+
 
 .container {
     max-width: 1000px;
@@ -692,7 +698,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #271620!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 1.0em;
@@ -781,17 +787,18 @@ h4 {
 }
 
 .tc-white {
-    color: #364577!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #271620!important;
+    font-size: 20px;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #271620!important;
 }
 
 .ltc-white {
@@ -845,6 +852,31 @@ h4 {
     }
 }
 
+.col-sm-4 a, .row, .text-center, .white{
+    font-size: 20px;
+    color: #ffffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+}
+
+.col-sm-4{
+    padding-top: 0px;
+}
+
+.row a:active{
+    color: white;
+}
+
+.row li:hover{
+    color: rgb(1, 103, 255);
+}
+
+.row li:visited{
+    color: white;
+}
+h6{
+
+}
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
         max-width: 80%
