@@ -23,7 +23,6 @@ a:hover {
     top: 0;
     bottom: 0;
     width: 100%;
-    z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
@@ -97,7 +96,7 @@ p.text-center, .col-sm-12{
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -319,6 +318,7 @@ h2.paragraph {
     font-weight: 600;
     line-height: 44px;
 }
+
 
 .navbar-brand img {
     max-height: 200px;
