@@ -169,7 +169,7 @@ h2.paragraph {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgb(3, 118, 250);
+    color: rgb(233, 166, 22);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -306,9 +306,11 @@ h2.paragraph {
     font-size: 11px;
 }
 
-.navbar {
-    margin-bottom: 0;
+.navbar a {
+    margin: 10px;
     z-index: 1;
+    text-decoration: none;
+    
 }
 
 .navbar-brand {
@@ -383,13 +385,16 @@ h2.paragraph {
 }
 
 @media (min-width: 768px) {
-    .site-navigation {
-        position: absolute;
-        top: 50%;
-        right: 20px;
-        transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
-    }
+   .site-navigation {
+  position: absolute;
+  top: 50%;
+  left: 900px;
+  transform: translate(0, -50%);
+  -webkit-transform: translateY(-50%);
+  list-style-type: none;
+  padding: 20px;
+    padding-top: 20px;
+}
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
@@ -469,7 +474,7 @@ nav .caret {
     margin: 0 5px 5px 0;
 }
 
-.btn.pull-right {
+.btn.p l-right {
     margin: 0 0 5px 5px;
 }
 
@@ -735,7 +740,11 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    color: #FFF;
+
 }
+
+
 
 h2 {
     font-size: 22px;
@@ -891,6 +900,13 @@ h4 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular',  'Lucida Sans Unicode',  sans-serif; 
 }
 
+.col-sm-4 li {
+    list-style-type: none;
+    
+}
+
+
+
 .h3{
     margin: 20px;
     color: #E8F4FC;
@@ -997,8 +1013,11 @@ h4 {
         transform: none;
         -webkit-transform: none;
         -ms-transform: none;
+        text-decoration: none;
+        
     }
     .nav > li {
+        
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         background: rgba(0, 0, 0, .05);
