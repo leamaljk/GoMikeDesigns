@@ -3,7 +3,7 @@
 
 A link to my web page: 
 
-https://leamaljk.github.io/Project-4-Lea_Maljkovic/
+https://leamaljk.github.io/GoMikeDesigns/
 
 
 ## What I did! 
